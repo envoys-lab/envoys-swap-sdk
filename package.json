@@ -1,5 +1,5 @@
 {
-  "name": "@envoys/sdk",
+  "name": "@envoysvision/sdk",
   "license": "MIT",
   "version": "2.4.0",
   "description": "🛠 An SDK for building applications on top of Envoys.",
@@ -20,6 +20,9 @@
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@envoys-libs/envoys-swap-core": "../envoys-swap-core",
