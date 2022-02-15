@@ -1,7 +1,7 @@
 {
   "name": "@envoysvision/sdk",
   "license": "MIT",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "🛠 An SDK for building applications on top of Envoys.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@envoys-libs/envoys-swap-core": "^0.1.0",
+    "@envoysvision/envoys-swap-core": "^0.1.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",

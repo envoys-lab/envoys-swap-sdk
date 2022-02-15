@@ -1,7 +1,7 @@
+import { bytecode } from '@envoysvision/envoys-swap-core/build/IEnvoysPair.json'
+import { keccak256 } from '@ethersproject/solidity'
 import { INIT_CODE_HASH } from '../src/constants'
 
-import { bytecode } from '@envoys-libs/envoys-swap-core/build/IEnvoysPair.json'
-import { keccak256 } from '@ethersproject/solidity'
 
 // this _could_ go in constants, except that it would cost every consumer of the sdk the CPU to compute the hash
 // and load the JSON.
